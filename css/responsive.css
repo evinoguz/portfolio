@@ -1,0 +1,105 @@
+@media screen and (max-width: 770px){
+    /* Header */
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{
+        font-size: 20px;
+    }
+    #menu-bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        background: #24292D;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+    .nav-links li a{
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 10px;
+        margin: 0 0;
+    }
+    .nav-links li:last-child a{
+        border-bottom: none;
+    }
+    /* Anasayfa */
+    .inner-home{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .child-home{
+        flex-basis: 100%;
+    }
+    .child-home:last-child{
+        margin-bottom: 20px;
+    }
+    .child-home h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .child-home p{
+        font-size: 20px;
+    }
+    .btn{
+        width: 100%;
+    }
+    /* Yazılımlar */
+    .inner-software-child{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    /* Sertifikalarım */
+    .child-courses{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    /* Başarılar */
+    .child-achivement1{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .single-detail{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    /* Hakkımda */
+    .child-testi{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .child-testi:last-child{
+        margin-bottom: 0;
+    }
+    /* İletişim */
+    .child-contact{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    /* Footer */
+    .child-footer{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .child-footer h3{
+        margin-bottom: 10px
+    }
+    .child-footer p{
+        margin-bottom: 10px
+    }
+}
